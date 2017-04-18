@@ -356,5 +356,5 @@ net = add_new_user(net, 'Carol', [])
 #print get_connections(net, 'Alice')
 #print get_secondary_connections(net, "John")
 #print count_common_connections(net, "Mercedes", "John")
-print find_path_to_friend(net, "John", "Levi")
+#print find_path_to_friend(net, "John", "Levi")
 
