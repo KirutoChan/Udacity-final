@@ -121,7 +121,7 @@ def create_data_structure(string_input):
             string_input = string_input[end + 1 :]
         if friend == None:
             break
-    print string_input
+    print (string_input)
 
     return network
 
@@ -267,7 +267,7 @@ def count_common_connections(network, user_A, user_B):
     if user_A not in network or user_B not in network:
         return False
     for friendA in network[user_A][0]:
-        print friendA
+        print (friendA)
         for friendB in network[user_B][0]:
             if friendA == friendB:
                 common_connections = common_connections + 1
