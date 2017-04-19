@@ -344,7 +344,7 @@ def find_path_to_friend(network, user_A, user_B):
 # to see how your code behaves. Have fun!
 
 net = create_data_structure(example_input)
-#print (net)
+print (net)
 #print (get_connections(net, "Debra"))
 #print (get_connections(net, "Mercedes"))
 #print (get_games_liked(net, "John"))
